@@ -35,6 +35,8 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
+## if you like it consider leaving a star or follow, Thanks!
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
