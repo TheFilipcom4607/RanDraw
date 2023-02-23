@@ -28,7 +28,7 @@ turtle.pensize(2)
 turtle.colormode(255)
 
 # Define colors
-colors = [(255, 0, 0), (255, 165, 0), (255, 255, 0), (0, 128, 0), (0, 0, 255), (75, 0, 130), (238, 130, 238)]
+kolory = [(255, 0, 0), (255, 165, 0), (255, 255, 0), (0, 128, 0), (0, 0, 255), (75, 0, 130), (238, 130, 238)]
 
 # Generate the initial shape
 generate_shape()
