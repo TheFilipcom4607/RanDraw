@@ -1,42 +1,42 @@
 import turtle
 import random
 
-# Definiujemy funkcję do generowania kształtów
-def generuj_ksztalt():
-    turtle.clear() # Wyczyszczamy poprzedni kształt
-    turtle.color(random.choice(kolory))
-    turtle.begin_fill() # Wypełniamy kształt kolorem
+# Define a function for generating shapes
+def generate_shape():
+    turtle.clear() # Clear the previous shape
+    turtle.color(random.choice(colors))
+    turtle.begin_fill() # Fill the shape with color
     
-    # Losujemy parametry kształtu
-    rozmiar_ksztaltu = random.randint(25, 50)
-    liczba_bokow = random.randint(4, 20)
-    kat = 360 / liczba_bokow
-    krzywizna = random.uniform(1, 50)
+    # Generate random shape parameters
+    shape_size = random.randint(25, 50)
+    number_of_sides = random.randint(4, 20)
+    angle = 360 / number_of_sides
+    curvature = random.uniform(1, 50)
     
-    # Rysujemy kształt
+    # Draw the shape
     turtle.right(random.uniform(0, 360))
-    for j in range(liczba_bokow):
-        turtle.forward(rozmiar_ksztaltu)
-        turtle.right(kat + krzywizna)
-        krzywizna *= -1
+    for j in range(number_of_sides):
+        turtle.forward(shape_size)
+        turtle.right(angle + curvature)
+        curvature *= -1
     
-    turtle.end_fill() # Kończymy wypełnianie kształtu kolorem
+    turtle.end_fill() # Finish filling the shape with color
 
-# Konfigurujemy żółwia
+# Configure the turtle
 turtle.speed('fastest')
 turtle.pensize(2)
 turtle.colormode(255)
 
-# Definiujemy kolory
-kolory = [(255, 0, 0), (255, 165, 0), (255, 255, 0), (0, 128, 0), (0, 0, 255), (75, 0, 130), (238, 130, 238)]
+# Define colors
+colors = [(255, 0, 0), (255, 165, 0), (255, 255, 0), (0, 128, 0), (0, 0, 255), (75, 0, 130), (238, 130, 238)]
 
-# Generujemy początkowy kształt
-generuj_ksztalt()
+# Generate the initial shape
+generate_shape()
 
-# Podpinamy funkcję do zdarzenia wciśnięcia klawisza "q"
+# Attach the function to the "q" key press event
 turtle.listen()
-turtle.onkey(generuj_ksztalt, 'q')
+turtle.onkey(generate_shape, 'q')
 
-# Zamykamy okno po wciśnięciu klawisza "Escape"
+# Close the window when the "Escape" key is pressed
 turtle.onkey(turtle.bye, 'Escape')
 turtle.mainloop()
