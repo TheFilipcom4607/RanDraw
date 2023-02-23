@@ -30,7 +30,14 @@ def uwu():
         run()
     elif choice == '2':
         slow_type('\nmsg me on dc:\nTheFilipcom4607#8475\nor open an issue on github')
-        sleep(3)
+        print('3...')
+        sleep(1)
+        print('2...')
+        sleep(1)
+        print('1...')
+        sleep(1)
+        print('Going back to home screen...')
+        sleep(.4)
         clean()
         uwu()
     
@@ -69,18 +76,18 @@ def run():
     exec(code)
     clean()
     print("""
-
-██████╗ ██╗   ██╗███████╗██╗
-██╔══██╗╚██╗ ██╔╝██╔════╝██║
-██████╔╝ ╚████╔╝ █████╗  ██║
-██╔══██╗  ╚██╔╝  ██╔══╝  ╚═╝
-██████╔╝   ██║   ███████╗██╗
-╚═════╝    ╚═╝   ╚══════╝╚═╝
-                            
-
-   """)
+    
+    ██████╗ ██╗   ██╗███████╗██╗
+    ██╔══██╗╚██╗ ██╔╝██╔════╝██║
+    ██████╔╝ ╚████╔╝ █████╗  ██║
+    ██╔══██╗  ╚██╔╝  ██╔══╝  ╚═╝
+    ██████╔╝   ██║   ███████╗██╗
+    ╚═════╝    ╚═╝   ╚══════╝╚═╝
+    """)
     sleep(3)
+    clean()
     exit()
+
 
 colorama.init(autoreset=True)
 
@@ -107,8 +114,15 @@ choice = choice.strip()
 if choice == '1':
     run()
 elif choice == '2':
-    slow_type('\nmsg me on dc:\nTheFilipcom4607#8475\nor open an issue on github')
-    sleep(3)
+    slow_type('\nmsg me on dc:\nTheFilipcom4607#8475\nor open an issue on github\n')
+    print('3...')
+    sleep(1)
+    print('2...')
+    sleep(1)
+    print('1...')
+    sleep(1)
+    print('Going back to home screen...')
+    sleep(.4)
     clean()
     uwu()
 
@@ -117,16 +131,14 @@ elif choice == '3':
     clean()
     print("""
 
-██████╗ ██╗   ██╗███████╗██╗
-██╔══██╗╚██╗ ██╔╝██╔════╝██║
-██████╔╝ ╚████╔╝ █████╗  ██║
-██╔══██╗  ╚██╔╝  ██╔══╝  ╚═╝
-██████╔╝   ██║   ███████╗██╗
-╚═════╝    ╚═╝   ╚══════╝╚═╝
-                            
-
-""")
+    ██████╗ ██╗   ██╗███████╗██╗
+    ██╔══██╗╚██╗ ██╔╝██╔════╝██║
+    ██████╔╝ ╚████╔╝ █████╗  ██║
+    ██╔══██╗  ╚██╔╝  ██╔══╝  ╚═╝
+    ██████╔╝   ██║   ███████╗██╗
+    ╚═════╝    ╚═╝   ╚══════╝╚═╝
+    """)
     sleep(3)
+    clean()
     exit()
-
 
