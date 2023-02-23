@@ -4,7 +4,7 @@ import random
 # Define a function for generating shapes
 def generate_shape():
     turtle.clear() # Clear the previous shape
-    turtle.color(random.choice(colors))
+    turtle.color(random.choice(kolory))
     turtle.begin_fill() # Fill the shape with color
     
     # Generate random shape parameters
